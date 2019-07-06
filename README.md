@@ -1,0 +1,51 @@
+# Godot village simulation
+Simulation of the middle age ukrainian village.
+## Roadmap
+- [x] Calendar with days, hours, minutes and seconds
+- [ ] Angle of the sun depending on minutes
+- [ ] Human with basic need of eating and sleeping implemented as states for now
+## Needs to be done
+- Places
+  - [ ] Adding home
+    - [ ] Adding place to eat
+    - [ ] Adding place to sleep
+    - [ ] Adding place to cook
+  - [ ] Adding fields
+  - [ ] Adding storage
+  - [ ]
+- [ ] Simulating nature
+  - [ ] Simulating day/night cycle
+  - [ ] Simulating plants
+  - [ ] Simulating vegetables
+  - [ ] Simulating seasons
+  - [ ] Simulating effect of the day/night cycle on people
+- [ ] Adding moskals and zhyds
+- [ ] Simulating human
+  - [ ] Simulating eating
+  - [ ] Simulating sleeping
+  - [ ] Simulating sex
+  - [ ] Simulating reproduction
+  - [ ] Simulating thoughts
+  - [ ] Simulating illnesses
+  - [ ] Simulating thoughts
+  - [ ] Simulating habits
+  - [ ] Simulating character
+  - [ ] Smoking
+- [ ] Simulating relationships
+  - [ ] Simulating courting
+  - [ ] Simulating marriage
+  - [ ] Simulating friendship
+  - [ ] Simulating hostility
+  - [ ] Simulating disputes
+- [ ] Simulating traditions
+  - [ ] Simulating celebrations
+  - [ ] Simulating games
+- [ ] Simulating village
+  - [ ] Simulating village map
+  - [ ] Simulating trade
+  - [ ] Simulating legal system
+- [ ] Simulating jobs
+  - [ ] Priest
+  - [ ] Blacksmith
+  - [ ] Shoe maker
+  - [ ] Chumak

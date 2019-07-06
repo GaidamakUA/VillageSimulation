@@ -1,0 +1,29 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://assets/main_theme.tres" type="Theme" id=1]
+[ext_resource path="res://assets/Scripts/TextScreen.gd" type="Script" id=2]
+[ext_resource path="res://TimeAccumulator.gd" type="Script" id=3]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Panel" type="Panel" parent="."]
+margin_right = 1024.0
+margin_bottom = 608.0
+
+[node name="TextScreen" type="RichTextLabel" parent="Panel"]
+margin_right = 1024.0
+margin_bottom = 608.0
+theme = ExtResource( 1 )
+text = "asdfasdf"
+script = ExtResource( 2 )
+
+[node name="Model" type="Node" parent="."]
+
+[node name="Calendar" type="Node" parent="Model"]
+
+[node name="TimeAccumulator" type="Node" parent="Model/Calendar"]
+script = ExtResource( 3 )
+time_speedup = 2400
+[connection signal="days_changed" from="Model/Calendar/TimeAccumulator" to="Panel/TextScreen" method="_on_TimeAccumulator_days_changed"]
+[connection signal="hours_changed" from="Model/Calendar/TimeAccumulator" to="Panel/TextScreen" method="_on_TimeAccumulator_hours_changed"]
+[connection signal="minutes_changed" from="Model/Calendar/TimeAccumulator" to="Panel/TextScreen" method="_on_TimeAccumulator_minutes_changed"]
